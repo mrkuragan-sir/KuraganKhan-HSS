@@ -6,7 +6,7 @@
 
 <sub>The interface running my YOLOv8m model + BoT-SORT on F-16 / F-35 footage. Arayüz, F-16 / F-35 görüntüsü üzerinde kendi modelim ve BoT-SORT ile çalışırken. Footage: Dutch Ministry of Defence, <a href="https://commons.wikimedia.org/wiki/File:Dutch_F-35_and_USAF_F-16.webm">Wikimedia Commons</a>, CC BY-SA 4.0.</sub>
 
-**▶ [Full 30 s run, unedited / 30 sn'lik kesintisiz kayıt](docs/hss_demo_full.mp4)**: the model's wrong labels are in it too / modelin yanlış etiketleri de içinde.
+**▶ [Video: every correctly labeled moment, full interface / Video: doğru etiketlenen tüm anlar, tam arayüz](docs/hss_demo.mp4)**
 
 ---
 
@@ -197,4 +197,4 @@ Made for TTURKS, Teknofest 2026 HSS. Code by Emirhan Sırma (Kuragan).
 TTURKS takımı için, Teknofest 2026 HSS. Kod: Emirhan Sırma (Kuragan).
 
 **License / Lisans:** AGPL-3.0 (Ultralytics YOLO is AGPL-3.0 / Ultralytics YOLO AGPL-3.0 lisanslı).
-`docs/demo.gif`, `docs/f16_f35.gif` and `docs/hss_demo_full.mp4` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.
+`docs/demo.gif`, `docs/f16_f35.gif` and `docs/hss_demo.mp4` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+models/
+*.pt
+*.engine
+*.onnx
+*.log
+config_override.json

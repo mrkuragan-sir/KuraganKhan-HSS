@@ -1,0 +1,11 @@
+# BoT-SORT — TTURKS optimize (ID stabilitesi için)
+tracker_type: botsort
+track_high_thresh: 0.25     # Yüksek güven eşiği (düşük → daha az track kaybı)
+track_low_thresh: 0.1       # Düşük güven eşiği
+new_track_thresh: 0.25      # Yeni track başlatma eşiği
+track_buffer: 120           # Kayıp frame tamponu (4 sn @ 30fps)
+match_thresh: 0.7           # IoU eşleşme eşiği (düşük → daha kolay eşleşme)
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: false            # ReID modeli yok — hız + kararlılık
+fuse_score: true

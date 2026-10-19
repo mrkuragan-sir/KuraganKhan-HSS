@@ -6,7 +6,7 @@
 
 <sub>The interface running my YOLOv8m model + BoT-SORT on F-16 / F-35 footage. Arayüz, F-16 / F-35 görüntüsü üzerinde kendi modelim ve BoT-SORT ile çalışırken. Footage: Dutch Ministry of Defence, <a href="https://commons.wikimedia.org/wiki/File:Dutch_F-35_and_USAF_F-16.webm">Wikimedia Commons</a>, CC BY-SA 4.0.</sub>
 
-**▶ [Video: every correctly labeled moment, full interface / Video: doğru etiketlenen tüm anlar, tam arayüz](docs/hss_demo.mp4)**
+**▶ [Video: every labeled moment, full interface / Video: etiketlenen tüm anlar, tam arayüz](docs/hss_demo.mp4)**
 
 ---
 

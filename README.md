@@ -166,9 +166,9 @@ ui/                  PyQt6 arayüz
 
 ## Screenshots / Ekran Görüntüleri
 
-F-16 and F-35 tracked at the same time / F-16 ve F-35 aynı anda takipte (footage: Dutch Ministry of Defence, CC BY-SA 4.0):
+F-16 and F-35 tracked at the same time / F-16 ve F-35 aynı anda takipte (0.5x, footage: Dutch Ministry of Defence, CC BY-SA 4.0):
 
-![F-16 + F-35](docs/arayuz_f16_f35.png)
+![F-16 + F-35](docs/f16_f35.gif)
 
 Model on a test video / Test videosunda model (17K aircraft dataset, YOLOv8m):
 
@@ -195,4 +195,4 @@ Made for TTURKS, Teknofest 2026 HSS. Code by Emirhan Sırma (Kuragan).
 TTURKS takımı için, Teknofest 2026 HSS. Kod: Emirhan Sırma (Kuragan).
 
 **License / Lisans:** AGPL-3.0 (Ultralytics YOLO is AGPL-3.0 / Ultralytics YOLO AGPL-3.0 lisanslı).
-`docs/demo.gif` and `docs/arayuz_f16_f35.png` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.
+`docs/demo.gif` and `docs/f16_f35.gif` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.

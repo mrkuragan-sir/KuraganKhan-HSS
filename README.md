@@ -2,7 +2,7 @@
 
 **[English](#english) · [Türkçe](#türkçe)**
 
-![Demo - F-16 / F-35 detection](docs/demo.gif)
+![Demo - F-16 / F-35 detection, correctly labeled moments](docs/demo.gif)
 
 <sub>The interface running my YOLOv8m model + BoT-SORT on F-16 / F-35 footage. Arayüz, F-16 / F-35 görüntüsü üzerinde kendi modelim ve BoT-SORT ile çalışırken. Footage: Dutch Ministry of Defence, <a href="https://commons.wikimedia.org/wiki/File:Dutch_F-35_and_USAF_F-16.webm">Wikimedia Commons</a>, CC BY-SA 4.0.</sub>
 
@@ -168,13 +168,13 @@ ui/                  PyQt6 arayüz
 
 ## Screenshots / Ekran Görüntüleri
 
-F-16 and F-35 tracked at the same time / F-16 ve F-35 aynı anda takipte (0.5x, footage: Dutch Ministry of Defence, CC BY-SA 4.0):
+F-16 / F-35 footage, every label checked / F-16 / F-35 görüntüsü, tüm etiketler kontrol edildi (footage: Dutch Ministry of Defence, CC BY-SA 4.0):
 
-![F-16 + F-35](docs/f16_f35.gif)
-
-Model on a test video / Test videosunda model (17K aircraft dataset, YOLOv8m):
-
-![F-16 detection](docs/model_f16.jpg)
+| | |
+|---|---|
+| ![F-16 + F-35](docs/ucus_f16_f35.jpg) | ![F-35 close-up](docs/ucus_f35_yakin.jpg) |
+| ![F-16](docs/ucus_f16.jpg) | ![F-35](docs/ucus_f35_kanat.jpg) |
+| ![F-16 + F-35 at the tanker](docs/ucus_tanker.jpg) | ![Scanning mode](docs/arayuz_tarama.png) |
 
 Desk tests with printed aircraft photos and a webcam / Basılı uçak fotoğrafları ve webcam ile masa testleri:
 
@@ -183,13 +183,9 @@ Desk tests with printed aircraft photos and a webcam / Basılı uçak fotoğrafl
 | ![F-35](docs/canli_test_f35.jpg) | ![Y-20](docs/canli_test_y20.jpg) |
 | ![two aircraft](docs/canli_test_iki_ucak.jpg) | ![test setup](docs/test_duzenegi.jpg) |
 
-Target lock / Nişan modu:
+Model on a test image / Test görselinde model (17K aircraft dataset, YOLOv8m):
 
-![Interface - target lock](docs/arayuz_nisan.png)
-
-Scanning mode / Tarama modu:
-
-![Interface - scanning](docs/arayuz_tarama.png)
+![F-16 detection](docs/model_f16.jpg)
 
 ---
 
@@ -197,4 +193,4 @@ Made for TTURKS, Teknofest 2026 HSS. Code by Emirhan Sırma (Kuragan).
 TTURKS takımı için, Teknofest 2026 HSS. Kod: Emirhan Sırma (Kuragan).
 
 **License / Lisans:** AGPL-3.0 (Ultralytics YOLO is AGPL-3.0 / Ultralytics YOLO AGPL-3.0 lisanslı).
-`docs/demo.gif`, `docs/f16_f35.gif` and `docs/hss_demo.mp4` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.
+`docs/demo.gif`, `docs/hss_demo.mp4` and `docs/ucus_*.jpg` use CC BY-SA 4.0 footage and are shared under the same license / aynı lisansla paylaşılmıştır.

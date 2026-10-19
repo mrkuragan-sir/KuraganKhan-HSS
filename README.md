@@ -2,7 +2,9 @@
 
 **[English](#english) · [Türkçe](#türkçe)**
 
-![Interface - target lock](docs/arayuz_nisan.png)
+![Demo - F-16 / F-35 detection](docs/demo.gif)
+
+<sub>The interface running my YOLOv8m model + BoT-SORT on F-16 / F-35 footage. Arayüz, F-16 / F-35 görüntüsü üzerinde kendi modelim ve BoT-SORT ile çalışırken. Footage: Dutch Ministry of Defence, <a href="https://commons.wikimedia.org/wiki/File:Dutch_F-35_and_USAF_F-16.webm">Wikimedia Commons</a>, CC BY-SA 4.0.</sub>
 
 ---
 
@@ -175,6 +177,10 @@ Desk tests with printed aircraft photos and a webcam / Basılı uçak fotoğrafl
 | ![F-35](docs/canli_test_f35.jpg) | ![Y-20](docs/canli_test_y20.jpg) |
 | ![two aircraft](docs/canli_test_iki_ucak.jpg) | ![test setup](docs/test_duzenegi.jpg) |
 
+Target lock / Nişan modu:
+
+![Interface - target lock](docs/arayuz_nisan.png)
+
 Scanning mode / Tarama modu:
 
 ![Interface - scanning](docs/arayuz_tarama.png)
@@ -185,3 +191,4 @@ Made for TTURKS, Teknofest 2026 HSS. Code by Emirhan Sırma (Kuragan).
 TTURKS takımı için, Teknofest 2026 HSS. Kod: Emirhan Sırma (Kuragan).
 
 **License / Lisans:** AGPL-3.0 (Ultralytics YOLO is AGPL-3.0 / Ultralytics YOLO AGPL-3.0 lisanslı).
+`docs/demo.gif` uses CC BY-SA 4.0 footage and is shared under the same license / aynı lisansla paylaşılmıştır.
